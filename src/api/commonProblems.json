@@ -1,0 +1,34 @@
+{
+  "data": [
+    {
+      "title": "Abiotic Disease",
+      "description": "Disease caused by nonliving factors",
+      "imageUrl": "overwatered_plant"
+    },
+    {
+      "title": "Uneven Watering",
+      "description": "Watering problems",
+      "imageUrl": "overwatered_plant"
+    },
+    {
+      "title": "Watering Deficiency",
+      "description": "Watering problems",
+      "imageUrl": "overwatered_plant"
+    },
+    {
+      "title": "Water Excess and/or Uneven Watering",
+      "description": "Watering problems",
+      "imageUrl": "overwatered_plant"
+    },
+    {
+      "title": "Fungi",
+      "description": "Fungus",
+      "imageUrl": "overwatered_plant"
+    },
+    {
+      "title": "Spider Mites",
+      "description": "Pests",
+      "imageUrl": "overwatered_plant"
+    }
+  ]
+}

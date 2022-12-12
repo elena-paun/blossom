@@ -1,0 +1,29 @@
+{
+  "data": [
+    {
+      "title": "How to Prevent Overwatering",
+      "isNew": true,
+      "imageUrl": "overwatering"
+    },
+    {
+      "title": "Make Your Own Hanging Kokedana Easily",
+      "isNew": false,
+      "imageUrl": "overwatering"
+    },
+    {
+      "title": "The Perfect Soil Recipe for your Succulents",
+      "isNew": false,
+      "imageUrl": "overwatering"
+    },
+    {
+      "title": "How to Use Humidifier for Healthier Plants",
+      "isNew": false,
+      "imageUrl": "overwatering"
+    },
+    {
+      "title": "How to Hang Your Plants From The Ceiling",
+      "isNew": false,
+      "imageUrl": "overwatering"
+    }
+  ]
+}
