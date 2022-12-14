@@ -18,8 +18,8 @@ import Explore from './src/screens/Explore';
 import Diagnose from './src/screens/Diagnose';
 import Search from './src/screens/Search';
 import ImageScreen from './src/screens/ImageScreen';
-import PlantDetailsScreen from './src/screens/PlantDetailsScreen';
-import PlantSearchScreen from './src/screens/PlantSearchScreen';
+import PlantDetails from './src/screens/PlantDetails';
+import PlantSearch from './src/screens/PlantSearch';
 // import SquareScreen from './src/screens/SquareScreen';
 
 const Tab = createBottomTabNavigator();
@@ -258,13 +258,13 @@ export default function App() {
       <Stack.Navigator>
         <Stack.Screen name='Home' component={Home} />
         <Stack.Screen
-          name='PlantScreen'
-          component={PlantScreen}
+          name='PlantDetails'
+          component={PlantDetails}
           options={{ headerShown: false }}
         />
         <Stack.Screen
-          name='SearchInputScreen'
-          component={SearchInputScreen}
+          name='PlantSearch'
+          component={PlantSearch}
           options={{
             title: 'Search',
             headerLeft: () => (

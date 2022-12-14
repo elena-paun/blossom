@@ -180,7 +180,7 @@ const Search = ({ navigation }) => {
       </View>
       <View style={styles.searchSection}>
         <Icon style={styles.searchIcon} name='search' size={17} />
-        <Pressable onPress={() => navigate('SearchInputScreen')}>
+        <Pressable onPress={() => navigate('PlantSearch')}>
           <View pointerEvents='none'>
             <TextInput
               style={styles.textInput}

@@ -31,7 +31,7 @@ const parseLightData = (data, setPlantbookDetails) => {
   }
 };
 
-const PlantIdentificationScreen = () => {
+const PlantIdentification = () => {
   const [imageRec, setImageRec] = useState();
 
   const [plantbookDetails, setPlantbookDetails] = useState({});
@@ -191,4 +191,4 @@ const styles = StyleSheet.create({
     padding: 10,
   },
 });
-export default PlantIdentificationScreen;
+export default PlantIdentification;

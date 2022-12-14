@@ -15,7 +15,7 @@ import {
 import axios from 'axios';
 import Icon from 'react-native-vector-icons/FontAwesome';
 
-const PlantSearchScreen = ({ navigation }) => {
+const PlantSearch = ({ navigation }) => {
   const { navigate } = navigation;
 
   const [defaultPlants, setDefaultPlants] = useState();
@@ -257,4 +257,4 @@ const styles = StyleSheet.create({
   header: { top: 40, position: 'absolute' },
 });
 
-export default PlantSearchScreen;
+export default PlantSearch;
