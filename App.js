@@ -9,21 +9,17 @@ import {
 } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { FaBeer } from 'react-icons/fa';
+import Icon from 'react-native-vector-icons/AntDesign';
 
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
-// import { createStackNavigator } from 'react-navigation-stack';
-
 import Explore from './src/screens/Explore';
 import Diagnose from './src/screens/Diagnose';
 import Search from './src/screens/Search';
-// import ComponentsScreen from './src/screens/ComponentsScreen';
-// import ListScreen from './src/screens/ListScreen';
 import ImageScreen from './src/screens/ImageScreen';
-import PlantScreen from './src/screens/PlantScreen';
-import SearchInputScreen from './src/screens/SearchInputScreen';
-import Icon from 'react-native-vector-icons/AntDesign';
+import PlantDetailsScreen from './src/screens/PlantDetailsScreen';
+import PlantSearchScreen from './src/screens/PlantSearchScreen';
 // import SquareScreen from './src/screens/SquareScreen';
 
 const Tab = createBottomTabNavigator();

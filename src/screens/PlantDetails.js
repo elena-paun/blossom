@@ -1,7 +1,7 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
-const PlantScreen = (prop) => {
+const PlantDetailsScreen = (prop) => {
   const { item } = prop.route.params;
   console.log(item);
   return (
@@ -65,4 +65,4 @@ const styles = StyleSheet.create({
     wordBreak: 'break-word',
   },
 });
-export default PlantScreen;
+export default PlantDetailsScreen;
